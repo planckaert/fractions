@@ -1,0 +1,37 @@
+{
+  "screens": [
+    {
+      "name": "Accueil",
+      "type": "screen",
+      "content": [
+        { "type": "text", "value": "Bienvenue sur Fractions Faciles !" },
+        { "type": "button", "text": "Commencer", "navigate": "Apprendre" }
+      ]
+    },
+    {
+      "name": "Apprendre",
+      "type": "screen",
+      "content": [
+        { "type": "text", "value": "Une fraction représente une ou plusieurs parts égales d’un tout." },
+        { "type": "button", "text": "Voir un exemple", "navigate": "Exemple" }
+      ]
+    },
+    {
+      "name": "Exemple",
+      "type": "screen",
+      "content": [
+        { "type": "text", "value": "Voici un rectangle partagé en 2 parts égales : 1/2." },
+        { "type": "button", "text": "Faire un quiz", "navigate": "Quiz" }
+      ]
+    },
+    {
+      "name": "Quiz",
+      "type": "screen",
+      "content": [
+        { "type": "text", "value": "Quelle image montre 1/3 ?" },
+        { "type": "text", "value": "(simulation d’image ici)" },
+        { "type": "button", "text": "Recommencer", "navigate": "Accueil" }
+      ]
+    }
+  ]
+}
